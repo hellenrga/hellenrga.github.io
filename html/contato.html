@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img  id="logo" src="../img/logo.png" alt="logo da ONG">
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="nossacausa.html">Por Trás da Causa</a></li>
+                <li><a href="privacidade.html">Privacidade</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="login.html">Minha conta</a></li>
+                <li id="simbApoie"><a href="apoie.html">Apoie</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+        <div>
+            <form id="comunicacao" action="cominicacao" name="comunicacao" method="get">
+                <h2 id="tituloComunic">Canal de Comunicação</h2> <br>
+
+                <p>
+                    Entre em contato com nós via e-mail. <br>
+                    Responderemos o mais rápido possível!
+                </p> <br><br><br>
+
+                <fieldset>
+                    <label class="infos" for="c-ajuda">Tipo de Contato</label> <br>
+                    <select name="contato" id="c-ajuda">
+                        <option value="" disabled selected>Selecionar</option>
+        
+                        <option value="parceria">Sou uma ONG e quero me tornar parceira</option>
+                        <option value="ajuda">Procuro assistência para mim e minha família</option>
+                        <option value="dúvida">Dúvidas no geral</option>
+                    </select>
+                </fieldset> <br><br>
+
+                <fieldset>
+                    <label class="infos" for="c-nome">Nome </label> <br>
+                    <input type="text" name="nome" id="c-nome"> <br><br>
+
+                    <label class="infos" for="c-email2">E-mail </label> <br>
+                    <input type="email" name="email2" id="c-email2"> <br><br><br>
+
+                    <label for="c-duvida" class="titulos">Escreva sua mensagem ou dúvida: </label> <br>
+                    <textarea name="duvida" id="c-duvida" cols="30" rows="10"></textarea> <br><br>
+                </fieldset>
+
+                <input class="btncomunicacao" type="submit" value="Enviar">
+                <input class="btncomunicacao"  type="reset" value="Limpar">
+            </form>
+        </div>
+
+        <div id="notificacaoEmail">
+            <h2>Cadastre-se abaixo!</h2> <br>
+
+            <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p> <br>
+
+            <form action="notificacao" name="notifEmail" method="get">
+                <fieldset>
+                    <label for="c-email"></label>
+                    <input type="email" name="email" id="c-email"> <br><br><br>
+
+                    <input id="inscrever" type="submit" value="Inscrever-se">
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="footape">
+            <div>
+                <p>
+                    <img src="../img/local.png" alt="localização">Av. dos Austronautas, 2023 - São Paulo, 02675-031
+                </p> <br><br>
+                    
+                <p>
+                    <img src="../img/funcionamento.png" alt="horário de funcionamento">  Seg. a Sex das 09:00 às 18:00
+                </p> <br><br>
+
+                <p>
+                    <img src="../img/contato.png" alt="número para contato">Telefone: (11) 3659 - 6879 <br>
+                    Whatsapp: (11) 98972 - 4519
+                </p> <br><br>
+
+                <p>
+                    <img src="../img/email.png" alt="email para contato"> info@saborsustentavel.org.br <br>
+                    financeiro@saborsustentavel.org.br <br>
+                    comunicacao@saborsustentavel.org.br
+                </p>
+            </div>
+
+            <div>
+                <h2>Integrantes:</h2> <br><br>
+
+                <p>
+                    Ana Laura Juarez Zerlin <span class="rms">RM98065</span> <br><br>
+                    Bianca Carvalho Dancs Firsoff <span class="rms">RM551645</span> <br><br>
+                    Gabriel Machado Carrara Pimentel <span class="rms">RM99880</span> <br><br>
+                    Hellen Ramos Gonçalves Assis <span class="rms">RM98284</span> <br><br>
+                </p>
+            </div>
+
+            <div>
+                <img src="../img/fotape3.png" id="fotapeImg" alt="logo com as redes sociais">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© Copyright 2023 | ONG Sabor Solidário | Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+#container_apresentacao{
+    background-color: #F4F9F3;
+    border-radius: 25px;
+    padding: 50px 20px 50px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: -1px 2px 2px grey;
+    border: 2px solid #be0c2a;
+}
+
+#container_apresentacao img{
+    width: 400px;
+    height: 250px;
+    padding: 0px 5% 0px 5%;
+}
+
+#explicacao{
+    padding: 10px 5% 5px 5%;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+#explicacao p{
+    text-align: justify;
+    padding-top: 5%;
+}
+
+#explicacao h2{
+    font-size: 30px;
+    font-weight: bold;  
+    color: #153d0a;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#explicacao h3{
+    font-style: italic;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 1% 10% 1%;
+}
+
+#intro h2{
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+
+#intro h3{
+    color: rgb(63, 62, 62);
+}
+
+#caixaTop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 1%;
+}
+
+#caixaTop div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px 30px 10px 30px;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin: 15%;
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+    background-color: #d6d3d3;
+    border: 2px solid #153d0a;
+}
+
+.topicos p{
+    text-align: center;
+}
+
+.topicos img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#btnSaibamais{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    background-color: #4b7e3d;
+}
+
+#btnSaibamais:hover{
+    background-color: #4b634b;
+}

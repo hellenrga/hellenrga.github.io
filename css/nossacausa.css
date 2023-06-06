@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+#nossa_causa{
+    background-color: #F4F9F3;
+    border-radius: 25px;
+    padding: 4% 9% 4% 9%;
+    margin: 100px 20% 50px 20%;
+    box-shadow: -1px 2px 2px grey;
+    border: 2px solid #be0c2a;
+}
+
+#nossa_causa h1{
+    font-size: 25px;
+    text-align: center;
+    line-height: 125%;
+    word-spacing: 103%;
+    color: #1c3019
+}
+
+#nossa_causa p{
+    text-align: justify;
+}

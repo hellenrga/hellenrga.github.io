@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap');
+
+#comunicacao{
+  width: 40%;
+  padding: 40px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 2px solid #be0c2a;
+  border-radius: 5px;
+  background-color: #F4F9F3;
+  text-align: center;
+  box-shadow: -1px 2px 2px grey;
+}
+
+#comunicacao label{
+  display: flex;
+}
+
+#tituloComunic{
+  color: #153d0a;
+}
+
+#c-ajuda{
+  width: 50%;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.infos{
+  display: flex;
+  margin-left: 24.4%;
+}
+
+#c-nome{
+  width: 50%;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#c-email2{
+  width: 50%;
+  height: 22px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#c-duvida{
+  display: block;
+  width: 100%;
+  min-height: 20rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  resize: vertical;
+}
+
+.btncomunicacao{
+  padding: 10px 15px 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(189, 189, 189);
+}
+
+.btncomunicacao:hover{
+  border-radius: 10px;
+  background-color: #38383873;
+}
