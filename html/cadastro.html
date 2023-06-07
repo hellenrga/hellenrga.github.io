@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/cadastro.css">
 </head>
-<body>
+<body onload="exibirDataHora()">
     <header>
         <img  id="logo" src="../img/logo.png" alt="logo da ONG">
   
@@ -55,6 +55,10 @@
             <input type="reset" value="Limpar" class="btncadastro">
         </form> <br><br>
       </div>
+
+
+      <p id="data-hora"></p>
+
   
       <div id="notificacaoEmail">
         <h2>Cadastre-se abaixo!</h2> <br>

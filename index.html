@@ -10,7 +10,7 @@
 
 
 </head>
-<body>
+<body onload="exibirDataHora()">
     <header>
         <img  id="logo" src="../img/logo.png" alt="logo da ONG">
 
@@ -40,8 +40,14 @@
                 </p>
             </div>
 
-            <div>
-                <img src="/img/comida.jpg" alt="produção das marmitas">
+            <div class="carrossel">
+                <div class="container" id="img">
+                    <img src="../img/comida.jpg" alt="produção das marmitas">
+                    <img src="../img/comida2.jpg" alt="distribuição de marmitas">
+                    <img src="../img/comida3.jpeg" alt="distribuição de cestas básicas">
+                    <img src="../img/comida4.jpeg" alt="produção de cestas básicas">
+                    <img src="../img/comida5.jpg" alt="outra distrivuição de cesta básica">
+                </div>
             </div>
         </div>
 
@@ -82,6 +88,8 @@
             
             <a href="sobre.html" id="btnSaibamais">Saiba quem somos</a>
         </div>
+
+        <p id="data-hora"></p>
 
         <div id="notificacaoEmail">
             <h2>Cadastre-se abaixo!</h2> <br>

@@ -207,3 +207,12 @@ footer{
 footer p{
   color: #f4f9f3da;
 }
+
+#data-hora {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+

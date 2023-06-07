@@ -55,3 +55,58 @@
   line-height: 20px;
   text-align: center;
 }
+
+.dark-mode-toggle {
+  padding: 10px 15px 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(189, 189, 189);
+}
+
+.dark-mode-toggle:hover{
+  border-radius: 10px;
+  background-color: #38383873;
+}
+
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+/* .dark-mode #login {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode #login input {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-mode #btnlogin {
+  background-color: #666;
+  color: #fff;
+}
+
+.dark-mode a {
+  color: #fff;
+}
+
+.dark-mode a:hover {
+  background-color: #555;
+}
+
+.dark-mode #notificacaoEmail {
+  background-image: none;
+  background-color: #444;
+}
+
+.dark-mode #inscrever {
+  border: 1px solid #be0c2a;
+  color: #be0c2a;
+}
+
+.dark-mode #inscrever:hover {
+  background-color: #be0c2a;
+  color: #fff;
+} */
