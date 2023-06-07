@@ -31,6 +31,18 @@
   color: black;
 }
 
+#btnlogin{
+  padding: 10px 15px 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(189, 189, 189);
+}
+
+#btnlogin:hover{
+  border-radius: 10px;
+  background-color: #38383873;
+}
+
 #cadastro{
   display: flex;
   flex-direction: row;

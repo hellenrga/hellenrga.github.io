@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+#cadastro{
+    background-color: #F4F9F3;
+    border-radius: 25px;
+    padding: 50px 30px 50px 30px;
+    margin: 70px 25% 50px 25%;
+    box-shadow: -1px 2px 2px grey;
+    text-align: center;
+    border: 2px solid #be0c2a;
+}
+  
+#cadastro h2{
+    text-align: center;
+    color: #153d0a;
+}
+  
+#cadastro form fieldset{
+    line-height: 30px;
+}
+  
+#cadastro form fieldset input{
+    width: 300px;
+    height: 25px;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+  
+#cadastro div a{
+    color: black;
+}
+
+.btncadastro{
+    padding: 10px 15px 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(189, 189, 189);
+}
+  
+.btncadastro:hover{
+    border-radius: 10px;
+    background-color: #38383873;
+}

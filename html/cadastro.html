@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+<body>
+    <header>
+        <img  id="logo" src="../img/logo.png" alt="logo da ONG">
+  
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="nossacausa.html">Por Trás da Causa</a></li>
+                <li><a href="privacidade.html">Privacidade</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="login.html">Minha conta</a></li>
+                <li id="simbApoie"><a href="apoie.html">Apoie</a></li>
+            </ul>
+        </nav> 
+    </header>
+  
+    <main>
+      <div id="cadastro">
+        <h2>Seja bem-vindo a página de cadastro!</h2> <br>
+        <p>Coloque suas informações abaixo.</p> <br><br>
+  
+        <form action="cadastrar" name="cadastro" method="get">
+            <fieldset>
+                <label for="c-nome">Nome completo</label> <br>
+                <input type="text" name="nome" id="c-nome"> <br><br>
+
+                <label for="c-email">E-mail</label> <br>
+                <input type="email" name="email" id="c-email"> <br><br>
+
+                <label for="c-niver">Aniversário</label> <br>
+                <input type="date" name="aniversario" id="c-niver" pattern="\d{2}/\d{2}/\d{4}"> <br><br>
+
+                <label for="c-usuario">Usuário</label> <br>
+                <input type="text" name="usuario" id="c-usuario"> <br><br>
+    
+                <label for="c-senha">Senha</label> <br>
+                <input type="password" name="senha" id="c-senha"> <br><br>
+    
+                <label for="c-senhaConfirm">Confirmação de senha</label> <br>
+                <input type="password" name="senhaConfirm" id="c-senhaConfirm"> <br><br>
+            </fieldset> <br><br>
+
+            <input type="submit" value="Cadastrar" class="btncadastro">
+            <input type="reset" value="Limpar" class="btncadastro">
+        </form> <br><br>
+      </div>
+  
+      <div id="notificacaoEmail">
+        <h2>Cadastre-se abaixo!</h2> <br>
+  
+        <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p> <br>
+  
+        <form action="notificacao" name="notifEmail" method="get">
+            <fieldset>
+                <label for="c-email"></label>
+                <input type="email" name="email" id="c-email"> <br><br><br>
+  
+                <input id="inscrever" type="submit" value="Inscrever-se">
+            </fieldset>
+        </form>
+      </div>
+  
+      <div class="footape">
+          <div class="footape div1">
+              <p>
+                <img src="../img/local.png" alt="localização">Av. dos Austronautas, 2023 - São Paulo, 02675-031
+              </p> <br><br>
+                    
+            <p>
+              <img src="../img/funcionamento.png" alt="horário de funcionamento">  Seg. a Sex das 09:00 às 18:00
+            </p> <br><br>
+  
+            <p>
+              <img src="../img/contato.png" alt="número para contato">Telefone: (11) 3659 - 6879 <br>
+              Whatsapp: (11) 98972 - 4519
+            </p> <br><br>
+  
+            <p>
+              <img src="../img/email.png"> info@saborsustentavel.org.br <br>
+              financeiro@saborsustentavel.org.br <br>
+              comunicacao@saborsustentavel.org.br
+              </p>
+          </div>
+  
+          <div>
+              <h2>Integrantes:</h2> <br><br>
+  
+              <p>
+                  Ana Laura Juarez Zerlin <span class="rms">RM98065</span> <br><br>
+                  Bianca Carvalho Dancs Firsoff <span class="rms">RM551645</span> <br><br>
+                  Gabriel Machado Carrara Pimentel <span class="rms">RM99880</span> <br><br>
+                  Hellen Ramos Gonçalves Assis <span class="rms">RM98284</span> <br><br>
+              </p>
+          </div>
+  
+          <div class="footape div3">
+            <img src="../img/fotape3.png" id="fotapeImg">
+          </div>
+      </div>
+    </main>
+  
+    <footer>
+      <p>© Copyright 2023 | ONG Sabor Solidário | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
